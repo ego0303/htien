@@ -44,7 +44,7 @@ body {
 
 body::after {
 	content: "";
-	background: url("./img/5.jfif");
+	background: url("./img/5.jpg");
 	background-position: center;
 	opacity: 0.4;
 	top: 0;
