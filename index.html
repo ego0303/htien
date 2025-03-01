@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Ngọc Ánh</title>
+		<title>Bảo Trâm</title>
 		<link rel="shortcut icon" href="./rose.png">
 		<link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css">
 		<link rel="stylesheet" type="text/css" href="./style.css">
@@ -17,10 +17,20 @@
 			};
 
 			supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+
+			setTimeout(function() {
+				swal({
+					title: "Thông báo",
+					text: "Chúng ta sẽ sắp dịch chuyển đến nơi ước hẹn của các vì sao, em hãy ước nguyện tại đó nhé",
+					button: "OK",
+				}).then(() => {
+					window.location.href = "https://example.com";
+				});
+			}, 6000); // 6 giây
 		</script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	</head>
 	<body class="demo-1 loading">
-		<!-- Embed the music iframe that starts playing automatically -->
 		<p>
 			<iframe src="https://www.nhaccuatui.com/mh/background/uACvQxUFlmnM" width="0" height="0" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 		</p>
